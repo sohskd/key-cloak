@@ -1,0 +1,457 @@
+2022-09-03 15:06:25,815 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2022-09-03 15:06:27,287 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2022-09-03 15:06:27,301 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2022-09-03 15:06:27,524 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: Keycloak 13.0.1 (WildFly Core 15.0.1.Final) starting
+2022-09-03 15:06:27,527 DEBUG [org.jboss.as.config] (MSC service thread 1-3) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/kf/2q5_zw6d71q2qfx60t3xgk300000gn/T/
+	java.library.path = /Users/desmondsoh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.11+9
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = AdoptOpenJDK
+	java.vendor.url = https://adoptopenjdk.net/
+	java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+	java.vendor.version = AdoptOpenJDK-11.0.11+9
+	java.version = 11.0.11
+	java.version.date = 2021-04-20
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = AdoptOpenJDK
+	java.vm.version = 11.0.11+9
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1
+	jboss.host.name = desmonds-macbook-pro
+	jboss.modules.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desmonds-macbook-pro
+	jboss.qualified.host.name = desmonds-macbook-pro.local
+	jboss.server.base.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone
+	jboss.server.config.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration
+	jboss.server.data.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/data
+	jboss.server.deploy.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/data/content
+	jboss.server.log.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/log
+	jboss.server.name = desmonds-macbook-pro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/tmp
+	jboss.socket.binding.port-offset = 100
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/logging.properties
+	module.path = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/modules
+	org.jboss.boot.log.file = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 11.3
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/jboss-modules.jar -mp /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/modules org.jboss.as.standalone -Djboss.home.dir=/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1 -Djboss.server.base.dir=/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone -Djboss.socket.binding.port-offset=100
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = GB
+	user.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/bin
+	user.home = /Users/desmondsoh
+	user.language = en
+	user.name = desmondsoh
+	user.timezone = Asia/Singapore
+2022-09-03 15:06:27,530 DEBUG [org.jboss.as.config] (MSC service thread 1-3) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED -Dorg.jboss.boot.log.file=/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/log/server.log -Dlogging.configuration=file:/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/logging.properties 
+2022-09-03 15:06:29,336 INFO  [org.wildfly.security] (ServerService Thread Pool -- 10) ELY00001: WildFly Elytron version 1.15.3.Final
+2022-09-03 15:06:29,941 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 6) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-09-03 15:06:30,206 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-09-03 15:06:30,238 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 2) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-09-03 15:06:30,653 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-09-03 15:06:30,682 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.4.Final
+2022-09-03 15:06:30,693 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.4.Final
+2022-09-03 15:06:30,763 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 34) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-09-03 15:06:30,771 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 35) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2022-09-03 15:06:30,787 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 36) WFLYRS0016: RESTEasy version 3.15.1.Final
+2022-09-03 15:06:30,802 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.20.Final
+2022-09-03 15:06:30,813 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.27.Final)
+2022-09-03 15:06:30,933 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 40) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-09-03 15:06:30,994 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.2.5.Final starting
+2022-09-03 15:06:31,003 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2022-09-03 15:06:31,004 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 49) WFLYSEC0002: Activating Security Subsystem
+2022-09-03 15:06:31,006 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-09-03 15:06:31,015 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2022-09-03 15:06:31,033 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2022-09-03 15:06:31,066 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2022-09-03 15:06:31,073 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-09-03 15:06:31,169 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 50) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-09-03 15:06:31,357 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 42) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2022-09-03 15:06:31,311 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-09-03 15:06:31,481 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2022-09-03 15:06:31,479 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2022-09-03 15:06:31,493 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file '/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/application.keystore' does not exist. Used blank.
+2022-09-03 15:06:31,508 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2022-09-03 15:06:31,607 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) WFLYUT0014: Creating file handler for path '/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-09-03 15:06:31,624 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2022-09-03 15:06:31,625 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2022-09-03 15:06:31,626 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2022-09-03 15:06:31,830 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8180
+2022-09-03 15:06:31,874 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-09-03 15:06:32,008 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-09-03 15:06:32,009 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2022-09-03 15:06:32,464 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2022-09-03 15:06:32,480 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2022-09-03 15:06:32,494 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/deployments
+2022-09-03 15:06:32,503 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2022-09-03 15:06:32,524 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8543
+2022-09-03 15:06:33,861 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 54) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.9.Final
+2022-09-03 15:06:33,982 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-09-03 15:06:33,985 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-09-03 15:06:34,360 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 55) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2022-09-03 15:06:34,361 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 54) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2022-09-03 15:06:34,725 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2022-09-03 15:06:34,759 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2022-09-03 15:06:34,759 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started work cache from keycloak container
+2022-09-03 15:06:34,759 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2022-09-03 15:06:34,759 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2022-09-03 15:06:34,764 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2022-09-03 15:06:34,765 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2022-09-03 15:06:34,765 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started sessions cache from keycloak container
+2022-09-03 15:06:34,768 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2022-09-03 15:06:34,809 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authorization cache from keycloak container
+2022-09-03 15:06:34,810 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started keys cache from keycloak container
+2022-09-03 15:06:34,810 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started users cache from keycloak container
+2022-09-03 15:06:34,811 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started realms cache from keycloak container
+2022-09-03 15:06:34,978 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2022-09-03 15:06:35,889 INFO  [org.keycloak.services] (ServerService Thread Pool -- 63) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2022-09-03 15:06:36,746 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 63) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2022-09-03 15:06:37,083 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2022-09-03 15:06:37,098 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2022-09-03 15:06:37,107 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2022-09-03 15:06:37,109 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 63) Node name: desmonds-macbook-pro, Site name: null
+2022-09-03 15:06:37,601 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 63) Database info: {databaseUrl=jdbc:h2:/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2022-09-03 15:06:44,957 INFO  [org.keycloak.connections.jpa.updater.liquibase.LiquibaseJpaUpdaterProvider] (ServerService Thread Pool -- 63) Initializing database schema. Using changelog META-INF/jpa-changelog-master.xml
+2022-09-03 15:06:48,364 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2022-09-03 15:06:48,585 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.3.20.Final}
+2022-09-03 15:06:48,586 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
+2022-09-03 15:06:48,847 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2022-09-03 15:06:49,141 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-03 15:06:49,212 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+2022-09-03 15:06:50,128 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 63) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2022-09-03 15:06:50,269 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 63) HV000001: Hibernate Validator 6.0.22.Final
+2022-09-03 15:06:51,792 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 63) HHH000397: Using ASTQueryTranslatorFactory
+2022-09-03 15:06:52,981 INFO  [org.keycloak.services] (ServerService Thread Pool -- 63) KC-SERVICES0050: Initializing master realm
+2022-09-03 15:06:54,847 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,851 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,851 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,852 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,853 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,854 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,854 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,854 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,855 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:54,867 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 15:06:55,028 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2022-09-03 15:06:55,184 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 41) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2022-09-03 15:06:55,284 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2022-09-03 15:06:55,287 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 13.0.1 (WildFly Core 15.0.1.Final) started in 30846ms - Started 594 of 872 services (584 services are lazy, passive or on-demand)
+2022-09-03 15:06:55,289 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:10090/management
+2022-09-03 15:06:55,289 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:10090
+2022-09-03 15:07:06,299 INFO  [org.keycloak.services] (default task-1) KC-SERVICES0077: Created initial admin user with username admin
+2022-09-03 15:19:10,628 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-7) RESTEASY002130: Failed to parse request.: java.lang.IllegalArgumentException: RESTEASY003340: Failure parsing MediaType string: x-www-form-urlencoded
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.plugins.delegates.MediaTypeHeaderDelegate.parse(MediaTypeHeaderDelegate.java:116)
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.plugins.delegates.MediaTypeHeaderDelegate.fromString(MediaTypeHeaderDelegate.java:20)
+	at javax.ws.rs.api@2.0.1.Final//javax.ws.rs.core.MediaType.valueOf(MediaType.java:172)
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.specimpl.ResteasyHttpHeaders.getMediaType(ResteasyHttpHeaders.java:141)
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.specimpl.ResteasyHttpHeaders.testParsing(ResteasyHttpHeaders.java:59)
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.plugins.server.servlet.ServletUtil.extractHttpHeaders(ServletUtil.java:51)
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:222)
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:61)
+	at org.jboss.resteasy.resteasy-jaxrs@3.15.1.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at javax.servlet.api@2.0.0.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.keycloak.keycloak-wildfly-extensions@13.0.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.lambda$doFilter$0(WildFlyRequestFilter.java:41)
+	at org.keycloak.keycloak-services@13.0.1//org.keycloak.services.filters.AbstractRequestFilter.filter(AbstractRequestFilter.java:43)
+	at org.keycloak.keycloak-wildfly-extensions@13.0.1//org.keycloak.provider.wildfly.WildFlyRequestFilter.doFilter(WildFlyRequestFilter.java:39)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.core@2.2.5.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.2.5.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.2.5.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.2.5.Final//io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.core@2.2.5.Final//io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.core@2.2.5.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.core@2.2.5.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.2.5.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.2.5.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow@23.0.2.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet@2.2.5.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.core@2.2.5.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.core@2.2.5.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.4.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022-09-03 15:23:41,568 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=3aa10ba0-828e-45e5-88ef-dbdc035b6c52, authSessionTabId=Vbp8LejMF_0
+2022-09-03 15:27:37,508 WARN  [org.keycloak.events] (default task-16) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=e9b2f0a0-a6a7-4a45-9049-519cd62c5110, authSessionTabId=BbaeA07pfNs
+2022-09-03 15:27:38,612 WARN  [org.keycloak.events] (default task-16) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=6287b45d-1a63-4d59-9b46-6094ada68fa1, authSessionTabId=4Uew7npjWoU
+2022-09-03 15:27:55,623 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=bdc52b51-8b4e-49ec-90b6-d45554dbe24b, authSessionTabId=vUw6cVAiGQE
+2022-09-03 15:27:56,524 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=19e1cf11-551e-4bd1-90cf-bef448758cb6, authSessionTabId=eA5mi74qgZo
+2022-09-03 15:27:57,358 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=829eb24d-415f-4880-a11c-1e879b31a97e, authSessionTabId=oEpFUdBh4s0
+2022-09-03 15:27:58,117 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=3e05051b-c325-4567-8c89-d0672fb1ccaa, authSessionTabId=bLYdcvaX3n8
+2022-09-03 15:28:19,206 WARN  [org.keycloak.events] (default task-16) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=a7c301d5-78ea-4084-9e7d-54003fd4e38c, authSessionTabId=7gV0TaHpxBA
+2022-09-03 15:28:57,652 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=9e9d2b5b-d2d2-489b-ae75-84557df252ea, authSessionTabId=HJakwGKuqV8
+2022-09-03 15:28:58,509 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=0bb6b2a1-a85a-4aa4-a1d0-d5b30ca0ec38, authSessionTabId=_U6DZj7wL8s
+2022-09-03 15:28:59,093 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=e997de39-d950-4c9e-a595-53ad57176c1d, authSessionTabId=naUt7HkODzs
+2022-09-03 15:28:59,668 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=db1aee4c-4e3f-46f1-8ca1-cc9399aa168e, authSessionTabId=yKFp_ly3HB8
+2022-09-03 15:29:52,276 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=6decc337-23bb-4d32-b478-e2ecd4bb7eca, authSessionTabId=wYeNrJhdZvs
+2022-09-03 15:29:53,041 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=9768c278-e737-4451-802e-a853da5687d4, authSessionTabId=qnbR4_5ek-w
+2022-09-03 15:29:53,844 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=b28ee048-e73f-4594-8591-2bd06b60b2c6, authSessionTabId=dxQYAN1wxQs
+2022-09-03 15:29:59,915 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=59d75e86-e202-475c-b81c-37b46370b7f4, authSessionTabId=7V8IuU3QXSE
+2022-09-03 15:30:19,431 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=aeb2b6f9-06fa-4c46-8bd1-7b3fc88683fb, authSessionTabId=ziqj4yC_O-A
+2022-09-03 15:30:20,853 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=8348c37d-3602-448d-bf55-2f2bb0b29a8a, authSessionTabId=FROAFdsbiyM
+2022-09-03 15:30:21,583 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=6311a0e1-7d78-4e5e-9601-a14654d06713, authSessionTabId=ipIFbi16yX0
+2022-09-03 15:30:22,045 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=3cfab586-3038-46fc-95a6-389cbaa97822, authSessionTabId=QIjZ2CbUvLM
+2022-09-03 15:30:22,837 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=8778ce14-ce2e-4f51-9597-0a9710f8234f, authSessionTabId=fRl_cwhDzCc
+2022-09-03 15:30:23,358 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=540669be-e632-4f4a-b7cc-ada5281cfc5c, authSessionTabId=1tu_ROD3bls
+2022-09-03 15:30:23,904 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=d5257709-1a3d-4a75-bf88-e52078012382, authSessionTabId=QgrN53HjPe4
+2022-09-03 15:30:24,599 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=5c43e0f6-9638-4813-ad6c-2535636ee146, authSessionTabId=AMCeCmp6Xhw
+2022-09-03 15:30:26,183 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=87e9e114-c530-4126-a77c-3654e024b30d, authSessionTabId=x5ymQc2mrdg
+2022-09-03 15:30:29,600 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=641c677d-4712-4569-b686-303495e900eb, authSessionTabId=K74fPc5KtcE
+2022-09-03 15:31:25,557 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=850f90cd-8208-4a48-b4d2-9b0c4cbe2e36, authSessionTabId=QNMmzqth-lQ
+2022-09-03 15:31:26,403 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=resolve_required_actions, auth_method=openid-connect, grant_type=password, client_auth_method=client-secret, username=desmond, authSessionParentId=ce93e095-7d3f-47fe-9805-c77315125205, authSessionTabId=FNbwaMO2y3k
+2022-09-03 17:07:46,565 WARN  [org.keycloak.events] (default task-19) type=LOGIN_ERROR, realmId=SpringBootKeycloak, clientId=login-app, userId=null, ipAddress=127.0.0.1, error=invalid_redirect_uri, redirect_uri=http://localhost:8081/sso/login
+2022-09-03 20:13:37,358 WARN  [org.keycloak.events] (default task-19) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2022-09-03 20:19:45,142 WARN  [org.xnio.nio] (default Accept) XNIO008001: Socket accept failed, backing off for 250 milliseconds: java.net.SocketException: Invalid argument
+2022-09-03 20:20:28,323 INFO  [org.jboss.modules] (main) JBoss Modules version 1.11.0.Final
+2022-09-03 20:20:29,380 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2022-09-03 20:20:29,395 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2022-09-03 20:20:29,564 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 13.0.1 (WildFly Core 15.0.1.Final) starting
+2022-09-03 20:20:29,567 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/jboss-modules.jar
+	java.class.version = 55.0
+	java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+	java.io.tmpdir = /var/folders/kf/2q5_zw6d71q2qfx60t3xgk300000gn/T/
+	java.library.path = /Users/desmondsoh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 11.0.11+9
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = AdoptOpenJDK
+	java.vendor.url = https://adoptopenjdk.net/
+	java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+	java.vendor.version = AdoptOpenJDK-11.0.11+9
+	java.version = 11.0.11
+	java.version.date = 2021-04-20
+	java.vm.compressedOopsMode = Zero based
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = AdoptOpenJDK
+	java.vm.version = 11.0.11+9
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1
+	jboss.host.name = desmonds-mbp
+	jboss.modules.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desmonds-mbp
+	jboss.qualified.host.name = desmonds-mbp
+	jboss.server.base.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone
+	jboss.server.config.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration
+	jboss.server.data.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/data
+	jboss.server.deploy.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/data/content
+	jboss.server.log.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/log
+	jboss.server.name = desmonds-mbp
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/tmp
+	jboss.socket.binding.port-offset = 100
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/logging.properties
+	module.path = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/modules
+	org.jboss.boot.log.file = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 11.3
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/jboss-modules.jar -mp /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/modules org.jboss.as.standalone -Djboss.home.dir=/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1 -Djboss.server.base.dir=/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone -Djboss.socket.binding.port-offset=100
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = GB
+	user.dir = /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/bin
+	user.home = /Users/desmondsoh
+	user.language = en
+	user.name = desmondsoh
+	user.timezone = Asia/Singapore
+2022-09-03 20:20:29,570 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED -Dorg.jboss.boot.log.file=/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/log/server.log -Dlogging.configuration=file:/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/logging.properties 
+2022-09-03 20:20:30,524 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.15.3.Final
+2022-09-03 20:20:30,896 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0033: Extension 'security' is deprecated and may not be supported in future versions
+2022-09-03 20:20:31,160 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-09-03 20:20:31,195 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2022-09-03 20:20:31,302 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2022-09-03 20:20:31,324 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.8.4.Final
+2022-09-03 20:20:31,334 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.8.4.Final
+2022-09-03 20:20:31,371 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 34) WFLYHEALTH0001: Activating Base Health Subsystem
+2022-09-03 20:20:31,370 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 35) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2022-09-03 20:20:31,389 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.4.27.Final)
+2022-09-03 20:20:31,417 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 40) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-09-03 20:20:31,430 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 36) WFLYRS0016: RESTEasy version 3.15.1.Final
+2022-09-03 20:20:31,444 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2022-09-03 20:20:31,449 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2022-09-03 20:20:31,457 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2022-09-03 20:20:31,472 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 49) WFLYSEC0002: Activating Security Subsystem
+2022-09-03 20:20:31,497 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.2.5.Final starting
+2022-09-03 20:20:31,497 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00007
+2022-09-03 20:20:31,511 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2022-09-03 20:20:31,537 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 50) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2022-09-03 20:20:31,571 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-09-03 20:20:31,574 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-09-03 20:20:31,586 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.20.Final
+2022-09-03 20:20:31,627 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 42) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2022-09-03 20:20:31,695 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file '/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/application.keystore' does not exist. Used blank.
+2022-09-03 20:20:31,723 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2022-09-03 20:20:31,763 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 42) WFLYUT0014: Creating file handler for path '/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-09-03 20:20:31,775 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2022-09-03 20:20:31,775 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2022-09-03 20:20:31,786 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2022-09-03 20:20:31,787 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2022-09-03 20:20:31,788 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2022-09-03 20:20:31,952 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8180
+2022-09-03 20:20:32,028 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-09-03 20:20:32,231 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-09-03 20:20:32,236 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2022-09-03 20:20:32,462 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2022-09-03 20:20:32,471 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2022-09-03 20:20:32,489 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/deployments
+2022-09-03 20:20:32,499 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2022-09-03 20:20:32,604 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8543
+2022-09-03 20:20:33,493 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 55) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.9.Final
+2022-09-03 20:20:33,565 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-09-03 20:20:33,566 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-09-03 20:20:33,686 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 54) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2022-09-03 20:20:33,696 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 55) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2022-09-03 20:20:34,098 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2022-09-03 20:20:34,160 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2022-09-03 20:20:34,153 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2022-09-03 20:20:34,154 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2022-09-03 20:20:34,161 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started work cache from keycloak container
+2022-09-03 20:20:34,161 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 65) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2022-09-03 20:20:34,165 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started sessions cache from keycloak container
+2022-09-03 20:20:34,181 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2022-09-03 20:20:34,184 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2022-09-03 20:20:34,219 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started authorization cache from keycloak container
+2022-09-03 20:20:34,224 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started keys cache from keycloak container
+2022-09-03 20:20:34,228 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started realms cache from keycloak container
+2022-09-03 20:20:34,228 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started users cache from keycloak container
+2022-09-03 20:20:34,388 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2022-09-03 20:20:35,205 INFO  [org.keycloak.services] (ServerService Thread Pool -- 59) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2022-09-03 20:20:35,774 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 59) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2022-09-03 20:20:36,135 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2022-09-03 20:20:36,141 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2022-09-03 20:20:36,149 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2022-09-03 20:20:36,152 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 59) Node name: desmonds-mbp, Site name: null
+2022-09-03 20:20:40,359 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 59) Database info: {databaseUrl=jdbc:h2:/Users/desmondsoh/Library/Mobile Documents/com~apple~CloudDocs/Desmond/NTU_And_NUS_And_IMDA/IMDA_AND_NUS/NUS/MTECH School /Semester 2/Practice Module/Code/nus-SWE5005/back-end/project-capstone/keycloak-13.0.1/standalone/data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2022-09-03 20:20:45,104 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2022-09-03 20:20:45,221 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.3.20.Final}
+2022-09-03 20:20:45,223 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2022-09-03 20:20:45,688 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2022-09-03 20:20:46,127 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-09-03 20:20:46,199 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2022-09-03 20:20:47,271 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 59) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2022-09-03 20:20:47,770 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 59) HV000001: Hibernate Validator 6.0.22.Final
+2022-09-03 20:20:49,356 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2022-09-03 20:20:50,449 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,452 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,453 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,453 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,453 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,461 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,462 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,463 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,463 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,465 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2022-09-03 20:20:50,584 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2022-09-03 20:20:50,764 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 41) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2022-09-03 20:20:50,943 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2022-09-03 20:20:50,946 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 13.0.1 (WildFly Core 15.0.1.Final) started in 23338ms - Started 594 of 872 services (584 services are lazy, passive or on-demand)
+2022-09-03 20:20:50,949 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:10090/management
+2022-09-03 20:20:50,950 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:10090
